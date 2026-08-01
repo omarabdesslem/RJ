@@ -2,7 +2,7 @@
 
 [![Download RJ](https://img.shields.io/badge/Download-RJ-0A84FF?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/omarabdesslem/rj-bulk/releases/latest/download/RJ.dmg)
 ![macOS 25+](https://img.shields.io/badge/macOS-25%2B-000000?style=for-the-badge&logo=apple&logoColor=white)
-![Apple Silicon ARM64](https://img.shields.io/badge/Apple%20Silicon-ARM64-000000?style=for-the-badge&logo=apple&logoColor=white)
+![Apple Silicon](https://img.shields.io/badge/Apple%20Silicon-000000?style=for-the-badge&logo=apple&logoColor=white)
 
 As a photographer who uses RAW files, I know firsthand that professional photos can take up a massive amount of space - sometimes more than **10GB** right after a trip. To save space while keeping my holiday photos, I developed this program. It converts **RAW photos to smaller, more space-friendly JPEGs**.
 
