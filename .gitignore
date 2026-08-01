@@ -1,0 +1,18 @@
+# macOS Finder metadata
+.DS_Store
+
+# Python environments, bytecode, and tool caches
+.venv/
+.venv.previous-*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Reproducible build outputs and distribution artifacts
+assets/AppIcon.icns
+assets/AppIcon.iconset/
+build/
+dist/
+*.dmg
+*.pkg

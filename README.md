@@ -1,26 +1,46 @@
-# Raw to JPEG Bulk Converter
+# RJ
 
-As a photographer who uses RAW files, I know firsthand that professional photos can take up a massive amount of space – sometimes more than **10GB** right after a trip! To save space while keeping my holiday photos, I developed this program. It converts **RAW photos to smaller, more space-friendly JPEGs**!
+[![Download RJ](https://img.shields.io/badge/Download-RJ-0A84FF?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/omarabdesslem/RAW_to_JPEG-Converter/releases/latest/download/RJ.dmg)
 
-This way, you can **keep your best photos in PNG/RAW** and convert the rest to JPEGs. It's very easy to use! 😊
+As a photographer who uses RAW files, I know firsthand that professional photos can take up a massive amount of space - sometimes more than **10GB** right after a trip. To save space while keeping my holiday photos, I developed this program. It converts **RAW photos to smaller, more space-friendly JPEGs**.
+
+This way, you can **keep your best photos in PNG/RAW** and convert the rest to JPEGs. It is very easy to use.
 
 ## Features
 
-- **RAW to JPEG Conversion**  
-  Converts popular RAW file formats (e.g., `.nef`, `.cr2`, `.cr3`, `.arw`, `.dng`) into JPEG format.
+**RAW to JPEG Conversion**
 
-- **Adjustable JPEG Quality**  
-  Allows you to specify the desired JPEG quality percentage (from **1 to 100**) for an optimal balance between image quality and file size.
+Converts popular RAW file formats, including `.nef`, `.cr2`, `.cr3`, `.arw`, and `.dng`, into JPEG format.
 
-- **Recursive Directory Traversal**  
-  Processes all images in the specified folder and its subdirectories while maintaining the original folder structure in the output.
+**Adjustable JPEG Quality**
 
-- **Non-RAW File Handling**  
-  Automatically **copies non-RAW files** to the output directory to preserve the complete file hierarchy.
+Choose a JPEG quality percentage from **1 to 100** to balance image quality and file size.
 
-## How to Run
+**Recursive Directory Traversal**
 
-Simply execute the script from the command line by providing the **path to the folder** containing your images and the **desired JPEG quality percentage**. For example:
+Processes the selected folder and its subdirectories while maintaining the original folder structure in the output.
 
-```bash
-./advanced_image_converter.py /path/to/images 85
+**Non-RAW File Handling**
+
+Automatically **copies non-RAW files** to the output directory to preserve the complete file hierarchy.
+
+## Install
+
+Python is not required.
+
+1. Download `RJ.dmg` from the Releases page.
+2. Open the downloaded DMG.
+3. Drag `RJ.app` into the `Applications` folder.
+4. Open RJ from Applications.
+
+## Use RJ
+
+1. Choose the folder containing your photos.
+2. Press Convert.
+3. Find the new JPEG folder beside the original folder, named `<selected-folder>_converted`.
+
+Open Extras to adjust JPEG quality or choose a different output folder.
+
+## License
+
+RJ is released under the [MIT License](LICENSE).
