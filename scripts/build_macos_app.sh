@@ -24,17 +24,17 @@ fi
 "$PYTHON_BIN" -m venv .venv
 . .venv/bin/activate
 python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
+python -m pip install -r app/requirements.txt
 python - <<'PY'
 import _tkinter
 
 print(f"Using Tk from {_tkinter.__file__}")
 PY
 
-python build_tools/make_icon.py
-iconutil -c icns assets/AppIcon.iconset -o assets/AppIcon.icns
+python app/make_icon.py
+iconutil -c icns app/assets/AppIcon.iconset -o app/assets/AppIcon.icns
 
-pyinstaller --clean --noconfirm rj.spec
+pyinstaller --clean --noconfirm app/rj.spec
 SIGN_IDENTITY="${SIGN_IDENTITY:--}" scripts/sign_macos_app.sh
 
 echo "Built dist/RJ.app"

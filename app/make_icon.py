@@ -4,7 +4,7 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parent
 ICONSET = ROOT / "assets" / "AppIcon.iconset"
 ICNS = ROOT / "assets" / "AppIcon.icns"
 SIZES = [16, 32, 64, 128, 256, 512, 1024]

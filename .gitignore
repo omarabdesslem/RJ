@@ -10,8 +10,8 @@ __pycache__/
 .mypy_cache/
 
 # Reproducible build outputs and distribution artifacts
-assets/AppIcon.icns
-assets/AppIcon.iconset/
+app/assets/AppIcon.icns
+app/assets/AppIcon.iconset/
 build/
 dist/
 *.dmg

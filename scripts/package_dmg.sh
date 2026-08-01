@@ -25,7 +25,7 @@ mkdir "$VOLUME_DIR"
 ditto --norsrc --noextattr "$APP_PATH" "$STAGED_APP_PATH"
 
 if [[ -n "$DEVELOPER_ID_APP" ]]; then
-  APP_PATH="$STAGED_APP_PATH" SIGN_IDENTITY="$DEVELOPER_ID_APP" ENTITLEMENTS="$ROOT_DIR/entitlements.mas.plist" \
+  APP_PATH="$STAGED_APP_PATH" SIGN_IDENTITY="$DEVELOPER_ID_APP" ENTITLEMENTS="$ROOT_DIR/app/entitlements.mas.plist" \
     "$ROOT_DIR/scripts/sign_macos_app.sh"
 fi
 

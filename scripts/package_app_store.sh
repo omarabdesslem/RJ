@@ -30,7 +30,7 @@ STAGED_PKG_PATH="$PACKAGE_STAGE_DIR/RJ-mas.pkg"
 trap 'rm -R "$PACKAGE_STAGE_DIR"' EXIT
 
 ditto --norsrc --noextattr "$APP_PATH" "$STAGED_APP_PATH"
-APP_PATH="$STAGED_APP_PATH" SIGN_IDENTITY="$APP_CERT" ENTITLEMENTS="$ROOT_DIR/entitlements.mas.plist" \
+APP_PATH="$STAGED_APP_PATH" SIGN_IDENTITY="$APP_CERT" ENTITLEMENTS="$ROOT_DIR/app/entitlements.mas.plist" \
   "$ROOT_DIR/scripts/sign_macos_app.sh"
 
 productbuild --component "$STAGED_APP_PATH" /Applications \

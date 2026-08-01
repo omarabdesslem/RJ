@@ -6,7 +6,7 @@ export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:${PA
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 APP_PATH="${APP_PATH:-$ROOT_DIR/dist/RJ.app}"
 SIGN_IDENTITY="${SIGN_IDENTITY:--}"
-ENTITLEMENTS="${ENTITLEMENTS:-$ROOT_DIR/entitlements.mas.plist}"
+ENTITLEMENTS="${ENTITLEMENTS:-$ROOT_DIR/app/entitlements.mas.plist}"
 
 clear_finder_info() {
   while IFS= read -r file; do
