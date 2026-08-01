@@ -27,8 +27,6 @@ Automatically **copies non-RAW files** to the output directory to preserve the c
 
 ## Install
 
-Python is not required.
-
 1. Download `RJ.dmg` from the Releases page.
 2. Open the downloaded DMG.
 3. Drag `RJ.app` into the `Applications` folder.
