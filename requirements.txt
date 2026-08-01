@@ -1,0 +1,3 @@
+Pillow>=10.0,<12
+rawpy>=0.21,<0.26
+pyinstaller>=6.0,<7
