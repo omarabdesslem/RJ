@@ -1,4 +1,4 @@
-# RJ
+# RJ: Raw to JPEG Bulk Compressor
 
 [![Download RJ](https://img.shields.io/badge/Download-RJ-0A84FF?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/omarabdesslem/rj-bulk/releases/latest/download/RJ.dmg)
 ![Apple Silicon ARM64](https://img.shields.io/badge/Apple%20Silicon-ARM64-C65D1E?style=for-the-badge&logo=apple&logoColor=white&labelColor=4A4C50)
